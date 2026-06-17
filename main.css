@@ -1,0 +1,54 @@
+/* positob:fixed */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background-color: rgba(0, 139, 139);
+  padding: 50px 0px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 5;
+  /*1) Qotirib qo'yadi */
+  /*2) HTML degan tagdan joy egallaydi */
+  /*3) Joyi bo'shatib beradi  */
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-logo {
+  font-size: 40px;
+  color: wheat;
+  font-family: sans-serif;
+}
+
+.hero {
+  background-color: orange;
+  padding-top: 180px;
+}
+
+.hero-desc {
+  font-size: 24px;
+  color: white;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.small-box {
+  background-color: red;
+  position: sticky;
+  /*1) Qotirib qo'yadi faqat o'sha qiymatga yaqinlashgan */
+  /*2) otasiga qaram hisoblanadi */
+  /*3) Joyi bo'shatib bermaydi  */
+  bottom: 50px;
+  z-index: -10;
+  /* top: 200px; */
+}
